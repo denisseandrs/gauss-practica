@@ -1,13 +1,10 @@
 # Práctica: Método de Gauss
 
-**Materia:**  
-Métodos Numéricos, Unidad 3
-**Docente:** 
-Víctor Hugo Vásquez Herrera
-**Institución:** 
-Instituto Tecnológico Superior de Xalapa
-**Alumno:** 
-Andrés Garrido Denisse Itzel 
+**Materia:** SCC-1017 Métodos Numéricos, Unidad 3
+**Docente:** Víctor Hugo Vásquez Herrera
+**Institución:** Instituto Tecnológico Superior de Xalapa
+**Alumno:** Andrés Garrido Denisse Itzel
+ 
 
 ## Descripción:
 Implementación del método de Gauss para resolver sistemas de ecuaciones lineales de la forma Ax = b. El programa sigue un diseño modular, separando la definición de datos, la lógica del método y la clase principal.
@@ -25,6 +22,7 @@ gauss-practica/
 └── README.md
 ```
 ## Compilar y ejecutar: 
+Desde la carpeta raíz del repositorio (la que contiene `Ecuaciones_lineales/`):
 **1. Compilar**
 ```bash
 javac Ecuaciones_lineales/*.java
