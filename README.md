@@ -1,9 +1,13 @@
 # Práctica: Método de Gauss
 
-**Materia:**  Métodos Numéricos, Unidad 3
-**Docente:** Víctor Hugo Vásquez Herrera
-**Institución:** Instituto Tecnológico Superior de Xalapa
-**Alumno:** Andrés Garrido Denisse Itzel 
+**Materia:**  
+Métodos Numéricos, Unidad 3
+**Docente:** 
+Víctor Hugo Vásquez Herrera
+**Institución:** 
+Instituto Tecnológico Superior de Xalapa
+**Alumno:** 
+Andrés Garrido Denisse Itzel 
 
 ## Descripción:
 Implementación del método de Gauss para resolver sistemas de ecuaciones lineales de la forma Ax = b. El programa sigue un diseño modular, separando la definición de datos, la lógica del método y la clase principal.
@@ -59,8 +63,3 @@ x3 = 7.0000
 2. `Gauss.eliminacionGaussiana` triangulariza la matriz, haciendo ceros debajo de la diagonal principal.
 3. `Gauss.sustitucionRegresiva` despeja las incógnitas de abajo hacia arriba.
 4. `LanzadorGauss` coordina el proceso e imprime los resultados.
-
-## Notas
-
-- Si durante la eliminación aparece un pivote igual a cero, el programa lanza un mensaje de error indicando la fila afectada.
-- Para resolver otro sistema, basta con modificar la matriz en `DefMatriz.java`.
