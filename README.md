@@ -3,7 +3,7 @@
 **Materia:** SCC-1017 Métodos Numéricos, Unidad 3
 **Docente:** Víctor Hugo Vásquez Herrera
 **Institución:** Instituto Tecnológico Superior de Xalapa
-**Alumno:** Andrés Garrido Denisse Itzel
+**Alumna:** Andrés Garrido Denisse Itzel
  
 
 ## Descripción:
