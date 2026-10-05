@@ -18,13 +18,6 @@ public class Gauss {
         // CICLO 1 (i): selecciona el renglón pivote actual (diagonal principal)
         for (int i = 0; i < n; i++) {
 
-            // --- Validación opcional: el pivote no puede ser cero ---
-            if (Math.abs(matriz[i][i]) < 1e-12) {
-                throw new ArithmeticException(
-                        "Pivote cero en la fila " + (i + 1) + ": no se puede continuar sin pivoteo.");
-            }
-            // --------------------------------------------------------
-
             // CICLO 2 (j): recorre los renglones que están ABAJO del pivote
             for (int j = i + 1; j < n; j++) {
 
