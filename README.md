@@ -5,14 +5,13 @@
 **Institución:** Instituto Tecnológico Superior de Xalapa
 **Alumno:** Andrés Garrido Denisse Itzel 
 
-## Descripción: Implementación del método de Gauss para resolver sistemas de ecuaciones lineales de la forma Ax = b.
+## Descripción:
+Implementación del método de Gauss para resolver sistemas de ecuaciones lineales de la forma Ax = b. El programa sigue un diseño modular, separando la definición de datos, la lógica del método y la clase principal.
 
-El programa sigue un diseño modular, separando la definición de datos, la lógica del método y la clase principal.
-
-## Lenguaje de programación: Java.
+## Lenguaje de programación: 
+Java.
 
 ## Estructura del proyecto
-
 ```
 gauss-practica/
 ├── Ecuaciones_lineales/
@@ -21,8 +20,7 @@ gauss-practica/
 │   └── LanzadorGauss.java   # Clase principal (main)
 └── README.md
 ```
-
-## Cómo compilar y ejecutar: Desde la carpeta raíz del repositorio (la que contiene `Ecuaciones_lineales/`):
+## Compilar y ejecutar: 
 **1. Compilar**
 ```bash
 javac Ecuaciones_lineales/*.java
@@ -48,7 +46,6 @@ Matriz aumentada definida en `DefMatriz.java`:
 ```
 
 **Salida por consola:**
-
 ```
 Soluciones del sistema:
 x1 = 3.0000
